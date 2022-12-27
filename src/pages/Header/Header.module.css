@@ -1,0 +1,47 @@
+nav {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background: transparent;
+	padding: 0 2rem 0 0;
+	transition: all .45s ease;
+	background: #000;
+    height: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    /* transform: translateX(-50%); */
+    margin-right: 14%;
+    cursor: pointer;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.navlist {
+    display: flex;
+    flex-wrap: wrap;
+	margin-right: 8rem;
+	background: violet;
+}
+
+.navlist a{
+    color: #fff;
+	font-size: 0.8rem;
+	font-weight: 700;
+    font-family: "Lato";
+	margin: 0 25px;
+	transition: all .45s ease;
+    word-break: break-all;
+    cursor: pointer;
+	text-transform: uppercase;
+}
+ 
+ 
