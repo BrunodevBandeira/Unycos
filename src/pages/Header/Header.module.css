@@ -29,7 +29,6 @@ nav {
     display: flex;
     flex-wrap: wrap;
 	margin-right: 8rem;
-	background: violet;
 }
 
 .navlist a{
