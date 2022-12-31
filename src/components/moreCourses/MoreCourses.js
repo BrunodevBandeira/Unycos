@@ -166,6 +166,15 @@ const MaisCursos = () => {
                       Este texto es una simulación de una contestación del equipo o del profesor directamente. El texto tendrá un aspecto diferenciado, y también tendrá un destaque mayor  
                       </p>
 
+                      <p> 
+                        <span className={styles.span1}> 
+                                          Equipe Unycos 
+                                        </span> 
+                                        <span className={styles.span2}>  
+                                          - hace 3 meses 
+                                        </span>
+                      </p>
+
                     </div>
               </div>
             </section>
@@ -180,15 +189,13 @@ const MaisCursos = () => {
               </div>
 
               <div className={styles.studyContainerText}>
-                {/* <div className={styles.opa}> */}
 
                     <h1> 
-                        ana Milena Gomez <span> 
-                                            <img src={iconLike} className={styles.opa}/> 
+                        ana Milena Gomez <span src={iconLike}> 
+                                            <img /> 
                                             Hace 3 meses 
                                          </span>
                     </h1>
-                {/* </div> */}
 
                     <div>
                       <p> 
@@ -214,7 +221,12 @@ const MaisCursos = () => {
               </div>
 
             </section>
+
+            <button className={styles.studyContainerButton}> Ver Más </button>
+            
       </section>
+
+
     </section>
   )
 } 

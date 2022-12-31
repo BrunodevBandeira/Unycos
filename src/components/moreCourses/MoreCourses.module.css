@@ -249,6 +249,7 @@
 }
 
 
+
 .studyContainerText h1 {
     font-family: 'Lato';
     font-style: normal;
@@ -273,6 +274,24 @@
     color: #858479;
 }
 
+.studyContainerText .span1  { 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #C5AF19;
+}
+
+.studyContainerText .span2 { 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color:  #858479;
+}
+
 .studyContainerText div {
     font-family: 'Lato';
     font-style: normal;
@@ -283,11 +302,7 @@
     color: #D8D7CE;
 }
 
-.studyContainerText  .opa {
-    background: red;
-    margin: .5rem;
-}
-
+ 
 .studyContainerLine {
     content: "";
     height: .1rem;
@@ -340,5 +355,29 @@
     line-height: 1.25rem;
     color:  #858479;
 }
+
+
+.studyContainerButton {
+    border: 0.125rem solid #D8D7CE;
+    border-radius: 4px;
+    background: transparent;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 1rem;
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+    color: #D8D7CE;
+    width: 11.25rem;
+    height: 2.5rem;
+    margin-top: 1.75rem;
+}
+
+
+
+
+
+
 
 
