@@ -1,0 +1,84 @@
+.lessonPlan {
+    padding-top: 1.5rem;
+}
+
+
+.lessonPlan h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: #D8D7CE;
+}
+
+
+.lessonPlanContent {
+    width: 59rem;
+    height: 50.313rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background: #F6F4EF;
+    border-radius: 0.25rem;
+}
+
+
+.lessonPlanContentText {
+    background: #F6F4EF;
+    width: auto;
+    height: 10.06rem;
+    /* padding-top: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lessonPlanContentText::after {
+    content: "";
+    height: .01rem;
+    width: 55rem;
+    background: #858479;
+}
+
+
+.contentText h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: #000000;
+    padding-left: 1.9rem;
+}
+
+.contentText p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #858479;
+    padding-left: 4.2rem;
+    max-width: 55rem;
+    margin-top: .8rem;
+}
+
+
+.contentText span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-align: right;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    color: #858479;
+}
+

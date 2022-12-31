@@ -1,0 +1,72 @@
+.Main {
+    background: #000000;
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+}
+
+.contentMain {
+    min-width: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contentMain img {
+    width: 62rem;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.contentMain .contentMainTitle {
+
+}
+
+
+.contentMainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    right: 50%;
+    bottom: 32%;
+    min-width: 600px;
+}
+
+
+.contentMainTitle h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contentMainTitle h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+span {
+    color: #999999;
+}

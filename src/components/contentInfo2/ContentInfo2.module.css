@@ -1,0 +1,94 @@
+.contentInfo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 1;
+    padding-top: 4rem;
+}
+
+.contentSplitInfo {
+    min-width: 70rem;
+    height: 20rem;
+    background: seagreen;
+    display: flex;
+}
+
+
+.contentSplitLeft {
+    width: 50%;
+    height: 20rem;
+    padding-left: .2rem;
+    object-fit: cover;
+}
+
+.contentSplitLeft img {
+
+}
+
+
+.contentSplitRight {
+    width: 35.5rem;
+    height: 20rem;
+    background: rgb(141, 21, 189);
+    display: block;
+    background: #fff;
+    overflow: hidden;
+}
+
+.splitRightInfo  {
+    padding-top: 1.5rem;
+
+}
+
+
+.splitRightInfo h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    word-break: break-all;
+    text-align: center;
+    color: #1D1A05;
+    margin-right: 9.35rem;
+}
+
+
+.splitRightInfo div {
+    width: 28rem;
+    height: 7rem;
+    /* background: paleturquoise; */
+    text-align: start;
+    margin: 0 2rem;
+    margin-top: 1.5rem;
+}
+
+.contentSplitContainer {
+    width: 38.5rem;
+    height: 10rem;
+    /* background: hotpink; */
+    display: flex;
+}
+
+
+.splitContainer {
+    width: 9.313rem;
+    height: 4.5rem;
+    /* background: red; */
+    margin: .5rem 0 0 1.9rem;
+}
+
+
+.splitContainer p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1D1A05;
+}

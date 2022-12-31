@@ -1,0 +1,344 @@
+.Courses {
+    max-width: 71rem;
+    /* height: 50.313rem; */
+    height: auto;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+    /* background: #128189; */
+}
+
+.Courses h1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: #D8D7CE;
+}
+
+.coursesContainer {
+    min-width: 71rem;
+    height: 17rem;
+    background: red;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.coursesContainerImg {
+    margin: 1rem 2rem;
+    width: 23rem;
+    height: 11.75rem;
+    overflow: hidden;
+}
+
+.coursesContainerImg img {
+    max-width: 22rem;
+}       
+
+.coursesContainerTitles {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 51.04%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+
+.coursesContainerInfo {
+    max-width: 72.5rem;
+    height: 15rem;
+    /* background: steelblue; */
+}
+
+.coursesContainerForm {
+    background: #770077;
+    max-width: 50rem;
+    margin: 0 auto;
+    height: 8rem;
+}
+
+.containerForm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    background: tomato;
+}
+
+.containerLeft {
+    background: blue;
+}
+
+.containerLeft input {
+    width: 23rem;
+    height: 2.5rem;
+    margin: .35rem;
+}
+
+.containerLeft input::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 2rem;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: #D8D7CE;
+    padding-left: .8rem;
+}
+
+.containerLeft input[type] {
+    background: #FFFFFF;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+}
+
+.containerRight {
+    background: red;
+}
+
+.containerRight input {
+    width: 23rem;
+    height: 2.5rem;
+    margin: .35rem;
+}
+
+.containerRight div {
+ 
+}
+
+.containerRight p {
+    background: rgb(45, 55, 146);
+    
+}
+
+
+
+/* .containerRight div input {
+    background: rgb(173, 26, 137);
+} */
+
+
+
+.containerRight input::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 2rem;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: #D8D7CE;
+    padding-left: .8rem;
+}
+
+.containerRight input[type] {
+    background: #FFFFFF;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+}
+
+
+.coursesContainerBtn {
+    background: #C5AF19;
+    border-radius: 0.1rem;
+    width: 23rem;
+    height: 3rem;
+    color: #fff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: 1.2rem;
+    text-transform: uppercase;
+}
+
+
+
+.studyContainer {
+    max-width: 72rem;
+    height: 50.313rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.studyContainer h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: #D8D7CE;
+}
+
+.studyContainer div {  
+    margin-top: 1rem;
+}
+
+.studyContainer h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: #D8D7CE;
+}
+
+.studyContainer span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: #C5AF19;
+}
+
+.studyContainer section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.studyContainerContent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* background: saddlebrown; */
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.studyContainerContent div {
+    /* background: #e28d51; */
+}
+
+.studyContainerContent p {
+    margin-top: .5rem;
+}
+
+
+.studyContainerEllipse {
+    background: #858479;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding-top: 39%;
+}
+
+
+.studyContainerEllipse p {
+    padding-top: 40%;
+}
+
+.studyContainerEllipseImg {
+
+}
+
+.studyContainerText {
+    margin-left: 1rem;
+}
+
+
+.studyContainerText h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    text-align: start;
+    color: #D8D7CE;
+}
+
+
+.studyContainerText span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: #858479;
+}
+
+.studyContainerText div {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: start;
+    color: #D8D7CE;
+}
+
+.studyContainerText  .opa {
+    background: red;
+    margin: .5rem;
+}
+
+.studyContainerLine {
+    content: "";
+    height: .1rem;
+    width: 51rem;
+    background:  #858479;
+    margin: 0 auto;
+}
+
+.studyContainerLine2 {
+    content: "";
+    height: .1rem;
+    width: 38rem;
+    background: #858479;
+    text-align: center;
+}
+
+
+.studyContainerTextP {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #858479;
+}
+
+
+
+.studyContainerText2  {
+    font-style: unset;
+    font-weight: unset;
+    font-size: unset;
+    line-height: unset;
+}
+
+.studyContainerText2 .span1  { 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #C5AF19;
+}
+
+.studyContainerText2 .span2 { 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color:  #858479;
+}
+
+

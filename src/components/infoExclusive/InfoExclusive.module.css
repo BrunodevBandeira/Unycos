@@ -1,0 +1,88 @@
+.infoExclusive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 1;
+    padding-top: 2rem;
+}
+
+
+.infoExclusive .exclusiveContent {
+    /* width: 71rem;
+    height: 10rem;
+    background: aqua; */
+}
+
+
+.infoExclusive .exclusiveContent h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    color: #D8D7CE;
+}
+
+
+.exclusiveContent .exclusiveContentIcons {
+    background: #000000;
+    min-width: 31.25rem;
+}
+
+.exclusiveContentIcons .contentIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .8rem;
+}
+
+
+.exclusiveContentIcons .contentIcons   {
+    margin: .5rem 2.5rem;
+}
+
+.exclusiveContentIcons .contentIcons div {
+    margin: .5rem 2.5rem;
+}
+
+.exclusiveContentIcons .contentIcons div img {
+    margin: .0 2.9rem;
+}
+
+
+.exclusiveContentIcons .contentIcons div p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.exclusiveContentIcons .exclusiveContentButton {
+   text-align: center;
+   word-break: break-all;
+}
+
+
+.contentBtn {
+    background: #C5AF19;
+    border-radius: 0.1rem;
+    width: 23rem;
+    height: 3rem;
+    color: #fff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-top: 1.2rem;
+}
