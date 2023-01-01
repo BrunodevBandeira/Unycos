@@ -7,12 +7,15 @@ import InfoExclusive from "../infoExclusive/InfoExclusive";
 import LessonPlan from "../lessonPlan/LessonPlan";
 import MoreCourses from "../moreCourses/MoreCourses";
 import Articles from "../articles/Articles";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer"
 
 const Main = () => {
   const [ dados, setDados ] = React.useState([]);
 
   return (
       <section className={styles.Main}>
+          <Header />
           <div className={styles.contentMain}>
               <img src={foto} alt="Foto" />
                 <div className={styles.contentMainTitle}> 
@@ -26,6 +29,7 @@ const Main = () => {
           <LessonPlan />
           <MoreCourses />
           <Articles />
+          <Footer />
       </section>
   );
 };

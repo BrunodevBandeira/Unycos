@@ -1,11 +1,9 @@
 .Courses {
     max-width: 71rem;
-    /* height: 50.313rem; */
-    height: auto;
+    height: 82rem;
     margin: 0 auto;
     margin-top: 2rem;
     text-align: center;
-    /* background: #128189; */
 }
 
 .Courses h1{

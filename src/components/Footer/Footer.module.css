@@ -1,10 +1,125 @@
-.footer {
-    text-align: center;
-    font-family: "Lato", Helvetica, sans-serif;
-    color: #aaa;
-    height: 10rem;
-    margin-top: 12rem;
-    box-sizing: border-box;
-    background: red;
+.Footer {
+    min-height: 100%;
+    width: 100%;
+    margin-top: 2.813rem;
 }
-  
+
+
+.footerContainer {
+     margin-top: auto;
+}
+
+
+.footerContainerImg {
+    display: flex;
+    justify-content: center;
+}
+
+
+.footerContainerImg img {
+    width: 100%;
+}
+
+
+.footerContainerText {
+    max-width: 35rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(-280px);
+}
+
+
+
+
+.footerContainerTitle h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 2.375rem;
+}
+
+
+.footerContainerTitle p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.813rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.footerContainerText button {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3.187rem;
+    /* margin-bottom: 3.813rem; */
+}
+
+
+.footerContainerButton {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+    color: #F1F1F1;
+    border: 0.125rem solid #F1F1F1;
+    border-radius: 0.25rem;
+    width: 22.938rem;
+    height: 3rem;
+    background: transparent;
+}
+
+
+
+.footerContainerIcons {
+    /* background: purple; */
+    /* width: 100%; */
+    transform: translateY(-140px);
+}
+
+.footerContainerIcons ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainerIcons ul li {
+    padding: 0 2.75rem;
+}
+
+.footerContainerIcons ul li p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #858479;
+    margin-top: 1.5rem;
+    margin-bottom: 1.438rem;
+}
+
+.footerContainerLine {
+    content: "";
+    height: .1rem;
+    width: 30rem;
+    margin: 0 auto;
+    border: 0.063rem solid #858479;
+    margin-top: 1.749rem;
+}
+
+
+
+

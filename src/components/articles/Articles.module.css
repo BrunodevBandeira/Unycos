@@ -1,4 +1,118 @@
 .Articles {
-    background: blueviolet;
-    height: 10rem;
+    
 }
+
+.articlesTitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    color: #D8D7CE;
+    margin-bottom: 1.313rem;
+}
+
+
+.articlesContainerLeft {
+    max-width: 22rem;
+}
+
+.articlesContainerLeft h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+    color: #D8D7CE;
+}
+
+.articlesLine {
+  content: "";
+  height: .1rem;
+  width: 23rem;
+  background: #858479;
+  margin-top: 0.625rem;
+  margin-bottom: 1.688rem;
+}
+
+
+.articlesContainerLeft p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.813rem;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #858479;
+}
+
+.articlesContainerRight {
+    padding-left: 3.8rem;
+    max-width: 28rem;
+}
+
+.articlesContainerRight h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+    color: #D8D7CE;
+}
+
+
+.articlesContainerRight p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.813rem;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #858479;
+}
+
+
+.articlesContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.ArticlesBtn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.ArticlesButton {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1rem;
+ 
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+    color: #F1F1F1;
+    border: 0.125rem solid #F1F1F1;
+    border-radius: 0.25rem;
+    width: 23rem;
+    height: 2.5rem;
+    background: transparent;
+}
+
+
+
