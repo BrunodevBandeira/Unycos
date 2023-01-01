@@ -23,8 +23,8 @@ const ContentInfo = () => {
           </div>
 
         </div>
-  );
-};
+  )
+}
 
 
-export default ContentInfo;
+export default ContentInfo

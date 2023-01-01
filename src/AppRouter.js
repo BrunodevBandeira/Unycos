@@ -4,18 +4,16 @@ import {
     Route,
     Navigate
 } from "react-router-dom";
-import Header from "./pages/Header/Header";
-import Main from "./pages/Main/Main";
-import Footer from "./pages/Footer/Footer"
+import LandingPage from "./pages/LandingPage/LandingPage";
+import SplitPage from "./pages/splitPage/SplitPage";
 
 const AppRouter = () => {
 
     return(
         <Router> 
             <Routes>
-                <Header />
-                    <Route path="/" element={ <Main /> } />
-                <Footer />
+            <Route path="/" element={ <SplitPage /> } />
+            <Route path="home" element={ <LandingPage /> } />
             </Routes>
         </Router>
     );

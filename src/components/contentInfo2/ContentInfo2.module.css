@@ -30,7 +30,7 @@
 .contentSplitRight {
     width: 35.5rem;
     height: 20rem;
-    background: rgb(141, 21, 189);
+    /* background: rgb(141, 21, 189); */
     display: block;
     background: #fff;
     overflow: hidden;

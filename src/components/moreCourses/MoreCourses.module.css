@@ -21,7 +21,6 @@
 .coursesContainer {
     min-width: 71rem;
     height: 17rem;
-    background: red;
     padding-top: 2rem;
     display: flex;
     justify-content: center;
@@ -51,7 +50,6 @@
 }
 
 .coursesContainerForm {
-    background: #770077;
     max-width: 50rem;
     margin: 0 auto;
     height: 8rem;
@@ -61,11 +59,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    background: tomato;
 }
 
 .containerLeft {
-    background: blue;
 }
 
 .containerLeft input {
@@ -93,7 +89,7 @@
 }
 
 .containerRight {
-    background: red;
+
 }
 
 .containerRight input {
