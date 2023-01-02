@@ -22,6 +22,11 @@
     padding-top: 1.8rem;
 } 
 
+.Register .title{
+    font-size: 4rem;
+    color: #fff;
+} 
+
  .Register .field {
     padding-bottom: 0.5rem;
 } 

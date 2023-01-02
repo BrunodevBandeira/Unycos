@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 // import Head from "../../components/Head";
 
 const SplitPage = () => {
-
-
     return(
         <div className={style.container} >
             {/* <Head title="Bem vindo" description="Aprecie a arte"/> */}
