@@ -1,13 +1,13 @@
 :root {
   /* --left-bg-color: rgba(195, 255, 0, 0.335); */
   /* --right-bg-color: #aa5fff5b; */
-  /* --left-btn-hover-color: #3255b096;
-  --right-btn-hover-color: #edc30753;
+  --left-btn-hover-color: #3255b096;
+  --right-btn-hover-color: #D8D7CE96;
   --hover-width: 75%;
   --other-width: 25%;
-  --speed: 1000ms; */
+  --speed: 1000ms;
 }
-/* 
+ 
 .container {
   background: rebeccapurple;
   width: 100%;
@@ -57,31 +57,32 @@ h1 {
   width: 50%;
   height: 100%;
   overflow: hidden;
-} */
+} 
+
 
 .split.left {
-  /* left: 0; */
-  /* background: url(../../assets/atenas.jpg); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
+  left: 0; 
+  background: url(../../assets/splitNatacao.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* 
+ 
 .split.left::before {
   content: '';
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: var(--left-bg-color);
-} */
+} 
 
 .split.right {
-  /* right: 0; */
-  /* background: url(../../assets/van1.jpg); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
+  right: 0; 
+  background: url(../../assets/splitNatacao2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-/* 
+ 
 .split.right::before {
   content: '';
   position: absolute;
@@ -124,4 +125,4 @@ h1 {
     padding: 1.2rem;
     width: 12rem;
   }
-} */
+} 

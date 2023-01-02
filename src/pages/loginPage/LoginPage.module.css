@@ -1,0 +1,75 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+    background: url(../../assets/splitNatacao3.jpg);
+    background-size: cover;
+}
+
+
+.login .form{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    max-width: 31rem;
+    height: 15rem;
+    padding: 0.5rem;
+    border-radius: .8rem;
+    padding-top: 1.8rem;
+} 
+
+
+ .login .field {
+    padding-bottom: 0.5rem;
+} 
+
+ .login .field label {
+    display: block;
+    font-weight: 600;
+    color: azure;
+}
+
+
+
+.login  .field label {
+    display: block;
+    color: #f1f1f1;
+}
+
+.login  .field input {
+    width: 100%;  
+    height: 1.8rem; 
+}
+
+.login  .actions {
+    text-align: center;
+    margin-top: 1rem;
+} 
+
+
+.login .actions button{
+    width: 15rem;
+    height: 2rem; 
+    background: #ccc; 
+};
+  
+
+
+/* .login .actionsBtn {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+    color: #F1F1F1;
+    border: 0.125rem solid #F1F1F1;
+    border-radius: 0.25rem;
+    width: 100%;
+    height: 2.5rem;
+    background: grey;
+} */

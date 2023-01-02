@@ -1,5 +1,5 @@
 import React from "react";
-import "./SplitPage.css";
+import style from  "./SplitPage.module.css";
 import { Link } from "react-router-dom";
 // import Head from "../../components/Head";
 
@@ -29,16 +29,16 @@ const SplitPage = () => {
 
 
     return(
-        <div className="container" onMouseMove={handleEffect}>
+        <div className={style.container} onMouseMove={handleEffect}>
             {/* <Head title="Bem vindo" description="Aprecie a arte"/> */}
-            <div className="split left">
+            <div className={`${style.split} ${style.left}`}>
                 <h1> Logar... </h1>
-                <Link to="/login" href="#" className="btn"> Entre </Link>
+                <Link to="/login" href="#" className={style.btn}> Entre </Link>
             </div>
 
-            <div className="split right">
+            <div  className={`${style.split} ${style.right}`}>
                 <h1> Cadastrar... </h1>
-                <Link to="/register" href="#" className="btn"> Cadastrar-se</Link>
+                <Link to="/register" href="#" className={style.btn}> Cadastrar-se</Link>
             </div>
 
       </div>
