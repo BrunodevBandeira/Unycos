@@ -19,7 +19,7 @@ const Cadastro = () => {
     };
 
     return(
-        <div className={style.register}>
+        <div className={style.Register}>
         <Head title="Cadastre-se" description="Cadastro"/>
 
             <h1 className={style.title}> Cadastre-se </h1>
