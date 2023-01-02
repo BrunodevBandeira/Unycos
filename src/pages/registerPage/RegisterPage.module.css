@@ -29,7 +29,7 @@
  .register .field label {
     display: block;
     font-weight: 600;
-    color: azure;
+    color: #f0ffff;
 }
 
 .register .field input {

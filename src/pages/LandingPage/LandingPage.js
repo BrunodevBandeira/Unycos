@@ -8,11 +8,14 @@ import LessonPlan from "../../components/lessonPlan/LessonPlan";
 import MoreCourses from "../../components/moreCourses/MoreCourses";
 import Articles from "../../components/articles/Articles";
 import Footer from "../../components/Footer/Footer";
+import Head from "../../components/Head/Head";
+
 
 
 const LandingPage = () => {
   return (
     <div>   
+      <Head title="Unycos || 🏊🏻‍♂️" description="Unycos"/>
       <Header />
           <Main />
           <ContentInfo />

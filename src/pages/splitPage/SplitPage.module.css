@@ -14,7 +14,7 @@
   height: 100%;
 }
 
-h1 {
+.container h1 {
   font-size: 4rem;
   color: #fff;
   position: absolute;
@@ -24,7 +24,7 @@ h1 {
   white-space: nowrap;
 }
 
-.btn {
+.container .btn {
   position: absolute;
   display: flex;
   align-items: center;

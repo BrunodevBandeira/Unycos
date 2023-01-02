@@ -1,4 +1,4 @@
-/* #notFound {
+.notFound {
     width: 100%;
     height: 100vh;
     background: #242424;
@@ -24,10 +24,10 @@
     transform: translateX(-12rem);
     font-weight: 600;
     font-size: 5rem;
-    color: #3d8e04;
+    color: blue;
     transition: all .4s;
 }
 
 .containerText:hover {
-   color: #1b8d9c;
-} */
+   color: darkblue;
+}

@@ -1,26 +1,26 @@
 import React from "react";
 import style from "./RegisterPage.module.css";
-// import { AuthContext  } from "../../contexts/Auth";
-// import Head from "../../components/Head";
+import { AuthContext  } from "../../contexts/Auth";
+import Head from "../../components/Head/Head";
 
 const Cadastro = () => {
 
-    // const { authenticated, verifyPassword } = React.useContext(AuthContext);
-    // const [ email, setEmail ] = React.useState("");
-    // const [ password, setPassword ] = React.useState("");
-    // const [ confirm, setConfirm ] = React.useState("");
+    const { authenticated, verifyPassword } = React.useContext(AuthContext);
+    const [ email, setEmail ] = React.useState("");
+    const [ password, setPassword ] = React.useState("");
+    const [ confirm, setConfirm ] = React.useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // console.log(" ===> Submit <=== ", { email, password, confirm});
+        console.log(" ===> Submit <=== ", { email, password, confirm});
 
-        // console.log(password === confirm ? " ===> tá igual <=== " : " NOT ");
-        // verifyPassword(email, password, confirm);
+        console.log(password === confirm ? " ===> tá igual <=== " : " NOT ");
+        verifyPassword(email, password, confirm);
     };
 
     return(
         <div className={style.register}>
-        {/* <Head title="Cadastre-se" description="Cadastro"/> */}
+        <Head title="Cadastre-se" description="Cadastro"/>
 
             <h1 className={style.title}> Cadastre-se </h1>
             <form className={style.form} onSubmit={handleSubmit}>
@@ -32,7 +32,7 @@ const Cadastro = () => {
                         name="email"
                         id="email"
                         placeholder="Coloque o Email aqui"
-                        // value={email} onChange={(e) => { setEmail(e.target.value)}}
+                        value={email} onChange={(e) => { setEmail(e.target.value)}}
                     />
                 </div>
 
@@ -42,7 +42,7 @@ const Cadastro = () => {
                         type="password"
                         name="password"
                         placeholder="Coloque a senha aqui"
-                        // value={password} onChange={(e) => setPassword(e.target.value)}
+                        value={password} onChange={(e) => setPassword(e.target.value)}
                     />
                 </div>
 
@@ -52,7 +52,7 @@ const Cadastro = () => {
                         type="password"
                         name="password"
                         placeholder="Confirmar senha"
-                        // value={confirm} onChange={(e) => setConfirm(e.target.value)}
+                        value={confirm} onChange={(e) => setConfirm(e.target.value)}
                     />
                 </div>
 

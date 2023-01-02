@@ -36,18 +36,36 @@
 
 .login  .field label {
     display: block;
-    color: #f1f1f1;
+    font-weight: 600;
+    color: #f0ffff;
 }
 
 .login  .field input {
-    width: 100%;  
-    height: 1.8rem; 
+    width: 100%;
+    height: 1.5rem;
+    background: linear-gradient(to left, transparent, #ccc);
+    transition: all 2s;
 }
 
 .login  .actions {
     text-align: center;
     margin-top: 1rem;
 } 
+
+.login .field input:hover {
+    background: #fff;
+}
+
+.login .field input::placeholder {
+    color: #000;
+    font-weight: 400;
+}
+
+
+.login .actions {
+    text-align: center;
+    margin-top: 1rem;
+}
 
 
 .login .actions button{
@@ -58,18 +76,3 @@
   
 
 
-/* .login .actionsBtn {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 0.75rem;
-    line-height: 1rem;
-    letter-spacing: 0.063rem;
-    text-transform: uppercase;
-    color: #F1F1F1;
-    border: 0.125rem solid #F1F1F1;
-    border-radius: 0.25rem;
-    width: 100%;
-    height: 2.5rem;
-    background: grey;
-} */
