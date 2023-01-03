@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./Header.module.css";
 import logo from "../../assets/Logo.svg";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -14,11 +14,11 @@ const Header = () => {
           </li>
 
           <li> 
-            <a> Cadastre </a>
+            <Link to="/register"> Cadastre </Link>
           </li>
 
           <li> 
-            <a> Log in </a>
+            <Link to="/login"> Log in </Link>
           </li>
         </ul>
       </nav>

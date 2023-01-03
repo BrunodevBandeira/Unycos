@@ -70,3 +70,14 @@
 span {
     color: #999999;
 }
+
+
+@media (max-width: 50rem) {
+    .contentMain img {
+        /* display: none; */
+    }
+    
+    /* .opa {
+        background: url(../../assets/mobile/HeroMobile.svg);
+    } */
+}
