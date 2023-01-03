@@ -3,7 +3,6 @@ import style from "./Main.module.css";
 import foto from "../../assets/Hero.svg";
 import foto2 from "../../assets/mobile/HeroMobile.svg";
 
-
 const Main = () => {
 
   const [ argura, setLargura ] = React.useState(0);
@@ -14,10 +13,7 @@ const Main = () => {
   console.log("X => " + x);
   console.log("Y => " + y);
 
- 
-    
-    let opa = document.documentElement.clientWidth < 800 ? foto2 : foto;
-
+  let opa = document.documentElement.clientWidth < 800 ? foto2 : foto;
 
   return (
       <section className={style.Main}>
