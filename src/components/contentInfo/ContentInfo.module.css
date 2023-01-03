@@ -63,3 +63,14 @@
     margin-top: 1.2rem;
 }
 
+
+
+
+
+
+/* ===> IPAD <=== */
+@media (max-width: 1024px) {
+    .contentIcon {
+        max-width: 215px;
+    }
+}

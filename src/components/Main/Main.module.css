@@ -72,12 +72,23 @@ span {
 }
 
 
-@media (max-width: 50rem) {
+
+/* ===> IPAD <=== */
+@media (max-width: 1024px) {
     .contentMain img {
         /* display: none; */
     }
     
-    /* .opa {
-        background: url(../../assets/mobile/HeroMobile.svg);
-    } */
+    .contentMainTitle {
+        width: 100%;
+        margin-bottom: 11rem;
+    }
+}
+
+
+/* ===> Cell <=== */
+@media (max-width: 450px) {
+    .contentMainTitle {
+        padding-top: 8rem;
+    }
 }
